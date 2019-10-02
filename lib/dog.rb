@@ -51,8 +51,10 @@ class Dog
     peko
   end
   
-  def self.new_from_database
-    
+  def self.new_from_database(row)
+    id
+    name
+    breed
   end
   
 end
