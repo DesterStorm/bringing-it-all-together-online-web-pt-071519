@@ -51,7 +51,7 @@ class Dog
     peko
   end
   
-  def self.new_from_database(row)
+  def self.new_from_db(row)
     attribute_hash = {
     :id => row[0],
     :name => row[1],
