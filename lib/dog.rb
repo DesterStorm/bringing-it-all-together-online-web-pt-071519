@@ -45,4 +45,7 @@ class Dog
     end
   end
   
+  def self.create(hash_of_attributes)
+    
+  
 end
