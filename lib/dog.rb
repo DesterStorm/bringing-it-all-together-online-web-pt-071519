@@ -9,4 +9,8 @@ class Dog
     @breed = breed 
   end
   
+  def @id 
+    id 
+  end
+  
 end
