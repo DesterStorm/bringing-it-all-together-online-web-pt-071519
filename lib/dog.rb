@@ -46,6 +46,8 @@ class Dog
   end
   
   def self.create(hash_of_attributes)
-    
+    peko = Dog.new(hash_of_attributes)
+    peko.save
+    peko
   
 end
