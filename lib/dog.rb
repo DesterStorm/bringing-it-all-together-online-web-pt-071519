@@ -57,7 +57,7 @@ class Dog
     :name => row[1]
     :breed => row[2]
     }
-    bakster = Dog.new(attribute_hash)
+    self.new(attribute_hash)
   end
   
 end
