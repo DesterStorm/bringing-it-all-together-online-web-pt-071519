@@ -52,9 +52,12 @@ class Dog
   end
   
   def self.new_from_database(row)
-    id
-    name
-    breed
+    attribute_hash {
+    :id => row[0]
+    :name => row[1]
+    :breed => row[2]
+    }
+    
   end
   
 end
